@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-///<summary>Handles player control</summary>
+///<summary>Player Controller</summary>
 public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
