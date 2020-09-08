@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float jump = 15f;
     private float elevation;
 
-    void Awake()
+    void Start()
     {
         controller = GetComponent<CharacterController>();
         point = GetComponent<Transform>();
