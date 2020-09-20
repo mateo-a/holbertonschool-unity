@@ -1,31 +1,16 @@
 fileFormatVersion: 2
-guid: 247b32a626181de42850b7ab25613d20
+guid: a95a277b1e1913149864941fea53eb4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3945451662944984592
-    second: bg-button_2
-  - first:
-      213: -7741265817636221602
-    second: bg-button_2
-  - first:
-      213: -7741265817636221602
-    second: bg-button_2
-  - first:
-      213: -7741265817636221602
-    second: bg-button_2
-  - first:
-      213: -7741265817636221602
-    second: bg-button_2
-  - first:
-      213: -7741265817636221602
+      213: 21300000
     second: bg-button_0
   - first:
-      213: 8440510077267459181
+      213: 21300002
     second: bg-button_1
   - first:
-      213: 3983995569078244124
-    second: bg-button_3
+      213: 21300004
+    second: bg-button_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -81,7 +66,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -94,7 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -106,31 +91,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -143,14 +104,14 @@ TextureImporter:
         width: 200
         height: 70
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d4bebf0cf719490800000000000000
-      internalID: -7741265817636221602
+      spriteID: a8365a0d12f49744891dae8aa7355bbc
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -164,14 +125,14 @@ TextureImporter:
         width: 200
         height: 70
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6cb1ae0237b22570800000000000000
-      internalID: 8440510077267459181
+      spriteID: 34a10beaec335634cb9a59c97fe9e4e3
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -185,14 +146,14 @@ TextureImporter:
         width: 200
         height: 70
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e5f40326f01c630800000000000000
-      internalID: 3945451662944984592
+      spriteID: 1806c98f281d6b146ae2aaf446aeff5b
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -200,7 +161,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 475f587eacad21e48a8b09f1add2bf59
     internalID: 0
     vertices: []
     indices: 
