@@ -1427,5 +1427,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 690d04fc5b3352945a165f8fca226263,
         type: 3}
+    - target: {fileID: 8755140544685487423, guid: 93532a3dbf88eca489c128d37b11ca03,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93532a3dbf88eca489c128d37b11ca03, type: 3}
