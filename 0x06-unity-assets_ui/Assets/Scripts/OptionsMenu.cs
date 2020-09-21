@@ -2,13 +2,12 @@
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-///<summary>Handles Options Menu UI.</summary>
+///<summary>Pushing buttons of Optins scene.</summary>
 public class OptionsMenu : MonoBehaviour
 {
     public Toggle why;
     private bool invertY;
 
-    //Awake
     void Awake()
     {
         if (PlayerPrefs.GetInt("Y", 0) == 0)
@@ -17,12 +16,12 @@ public class OptionsMenu : MonoBehaviour
             invertY = true;
         why.isOn = invertY;
     }
-    ///<summary>Returns without applying changes.</summary>
+    ///<summary>Load the previous scene without changes.</summary>
     public void Back()
     {
         SceneManager.LoadSceneAsync(PlayerPrefs.GetString("Prev", "MainMenu"), LoadSceneMode.Single);
     }
-    ///<summary>Returns applying changes.</summary>
+    ///<summary>Load the previous scene with changes.</summary>
     public void Apply()
     {
         if (why.isOn)

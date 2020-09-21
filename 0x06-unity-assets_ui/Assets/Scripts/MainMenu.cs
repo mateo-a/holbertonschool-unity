@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-///<summary>Handles Main Menu UI.</summary>
+///<summary>Pushing buttons.</summary>
 public class MainMenu : MonoBehaviour
 {
-    ///<summary>Handles level selection UI.</summary>
+    ///<summary>Loads the corresponding scene.</summary>
     public void LevelSelect(int level)
     {
         if (level == 1)
@@ -14,13 +14,13 @@ public class MainMenu : MonoBehaviour
         if (level == 3)
             SceneManager.LoadSceneAsync("Level03", LoadSceneMode.Single);
     }
-    ///<summary>Handles game options UI.</summary>
+    ///<summary>Loads the Options scene.</summary>
     public void Options()
     {
         PlayerPrefs.SetString("Prev", SceneManager.GetActiveScene().name);
         SceneManager.LoadSceneAsync("Options", LoadSceneMode.Single);
     }
-    ///<summary>Handles game exit UI.</summary>
+    ///<summary>Close the game and Exited is printed to the console.</summary>
     public void Exit()
     {
         Debug.Log("Exited");
