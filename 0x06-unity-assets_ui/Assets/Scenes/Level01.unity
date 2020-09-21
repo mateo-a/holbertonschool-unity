@@ -2584,6 +2584,7 @@ MonoBehaviour:
   charCam: {fileID: 963194228}
   speed: 9
   jump: 15
+  pause: {fileID: 1543545191}
 --- !u!143 &350954530
 CharacterController:
   m_ObjectHideFlags: 0
@@ -10707,6 +10708,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd4e08870b355b47a6bbb51ae38b644, type: 3}
+--- !u!223 &1543545191 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 913742916988355015, guid: f8be9c16d0266a54698761cac7d2c5ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1170308309775530590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1545352601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15653,6 +15660,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1543545189, guid: f8be9c16d0266a54698761cac7d2c5ed, type: 3}
+      propertyPath: cc
+      value: 
+      objectReference: {fileID: 963194225}
     - target: {fileID: 2437824526948063042, guid: f8be9c16d0266a54698761cac7d2c5ed,
         type: 3}
       propertyPath: m_Name

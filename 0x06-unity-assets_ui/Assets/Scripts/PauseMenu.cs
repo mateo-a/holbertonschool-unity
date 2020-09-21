@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-///<summary>Handles Pause Menu UI.</summary>
+///<summary>Es-ca-pé.</summary>
 public class PauseMenu : MonoBehaviour
 {
     public Canvas pause;
@@ -16,28 +16,34 @@ public class PauseMenu : MonoBehaviour
                 Resume();
             }
     }
-    ///<summary>Handles game pause behaviour.</summary>
+    ///<summary>Pause and show PauseCanvas.</summary>
     public void Pause()
     {
         pause.gameObject.SetActive(true);
         Time.timeScale = 0.0f;
         cc.gameObject.GetComponent<CameraController>().enabled = false;
     }
-    ///<summary>Handles game resume behaviour.</summary>
+    ///<summary>Resume the game where the player left off.</summary>
     public void Resume()
     {
         Time.timeScale = 1.0f;
         cc.gameObject.GetComponent<CameraController>().enabled = true;
         pause.gameObject.SetActive(false);
     }
-    ///<summary>Handles game restart behaviour.</summary>
+    ///<summary>Reloads the level scene that the player is currently on.</summary>
     public void Restart()
     {
         Resume();
         current = SceneManager.GetActiveScene();
         SceneManager.LoadSceneAsync(current.buildIndex, LoadSceneMode.Single);
     }
-    ///<summary>To options menu.</summary>
+    ///<summary>Load the MainMenu scene.</summary>
+    public void MainMenu()
+    {
+        Resume();
+        SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Single);
+    }
+    ///<summary>Load the Options scene.</summary>
     public void Options()
     {
         current = SceneManager.GetActiveScene();
@@ -45,10 +51,5 @@ public class PauseMenu : MonoBehaviour
         Resume();
         SceneManager.LoadSceneAsync("Options", LoadSceneMode.Single);
     }
-    ///<summary>To main menu.</summary>
-    public void MainMenu()
-    {
-        Resume();
-        SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Single);
-    }
+
 }

@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10f;
     public float jump = 15f;
     private float elevation;
+    public Canvas pause;
 
     void Start()
     {
@@ -45,6 +46,7 @@ public class PlayerController : MonoBehaviour
         if (point.position.y < -20.0f)
             point.position = new Vector3(0, 10, 0);
         if (Input.GetKey("escape"))
-            Application.Quit();
+            //Application.Quit();
+            pause.GetComponent<PauseMenu>().Pause();
     }
 }

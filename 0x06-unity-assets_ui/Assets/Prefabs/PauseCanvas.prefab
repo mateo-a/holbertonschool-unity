@@ -119,7 +119,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3198649759512571834}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1543545189}
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1806082797980278107
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +406,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4350125471106791309}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1543545189}
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2437824526948063042
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +430,7 @@ GameObject:
   - component: {fileID: 913742916988355015}
   - component: {fileID: 7475119506405692378}
   - component: {fileID: 7932494180835394961}
+  - component: {fileID: 1543545189}
   m_Layer: 5
   m_Name: PauseCanvas
   m_TagString: Untagged
@@ -500,6 +523,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1543545189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2437824526948063042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7471b0cb08edf548b936c7920b633fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pause: {fileID: 913742916988355015}
+  cc: {fileID: 0}
 --- !u!1 &3039326242771432907
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +656,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6473774054943060382}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1543545189}
+        m_MethodName: Options
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3075531573349019902
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +865,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4558268560299141409}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1543545189}
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4368531505548403396
 GameObject:
   m_ObjectHideFlags: 0
