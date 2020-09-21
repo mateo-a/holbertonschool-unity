@@ -5,17 +5,28 @@ public class CameraController : MonoBehaviour
     public Transform cam;
     public GameObject player;
     Vector3 balance;
+    private float xAxis = 0f;
+    private float yAxis = 2.5f;
     public float distance = 4.0f;
     public float height = 1.0f;
     public float damping = 5.0f;
     public float rotationDamping = 10.0f;
     public float rotateSpeed = 5.0f;
+    public bool isInverted;
 
 
     // Start is called before the first frame update
     void Start()
     {
         balance = player.transform.position - transform.position;
+        if (PlayerPrefs.GetInt("InvertY") == 0)
+        {
+            isInverted = false;
+        }
+        else
+        {
+            isInverted = true;
+        }
     }
 
     // Update is called once per frame
@@ -23,6 +34,9 @@ public class CameraController : MonoBehaviour
     {
         Vector3 located;
         Quaternion turn;
+        xAxis += Input.GetAxis("Mouse X");
+        yAxis += Input.GetAxis("Mouse Y") * (isInverted ? -1 : 1);
+        yAxis = Mathf.Clamp(yAxis, -50.0f, 50.0f);
 
         located = cam.TransformPoint(0, height, distance);
         transform.position = Vector3.Lerp(transform.position, located, Time.deltaTime * damping);
@@ -38,7 +52,7 @@ public class CameraController : MonoBehaviour
 
         player.transform.Rotate(0, horizontal, 0);
         float desiredAngle = player.transform.eulerAngles.y;
-        Quaternion rotation = Quaternion.Euler(0, desiredAngle, 0);
+        Quaternion rotation = Quaternion.Euler(yAxis, desiredAngle, 0);
         transform.position = player.transform.position - (rotation * balance);
         transform.LookAt(player.transform);
     }
