@@ -6774,6 +6774,7 @@ MonoBehaviour:
   damping: 5
   rotationDamping: 10
   rotateSpeed: 5
+  isInverted: 0
 --- !u!4 &968547921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 1ffc3ed37bd42d441a4d8205755a4543,

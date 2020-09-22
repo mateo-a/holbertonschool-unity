@@ -14,19 +14,22 @@ public class CameraController : MonoBehaviour
     public float rotateSpeed = 5.0f;
     public bool isInverted;
 
-
+    //Awake is called when the script instance is being loaded
+    void Awake()
+    {
+        if (PlayerPrefs.GetInt("InvertY") == 0)
+        {
+            isInverted = true;
+        }
+        else
+        {
+            isInverted = false;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
         balance = player.transform.position - transform.position;
-        if (PlayerPrefs.GetInt("InvertY") == 0)
-        {
-            isInverted = false;
-        }
-        else
-        {
-            isInverted = true;
-        }
     }
 
     // Update is called once per frame
@@ -35,7 +38,7 @@ public class CameraController : MonoBehaviour
         Vector3 located;
         Quaternion turn;
         xAxis += Input.GetAxis("Mouse X");
-        yAxis += Input.GetAxis("Mouse Y") * (isInverted ? -1 : 1);
+        yAxis += Input.GetAxis("Mouse Y") * (isInverted ? 1 : -1);
         yAxis = Mathf.Clamp(yAxis, -50.0f, 50.0f);
 
         located = cam.TransformPoint(0, height, distance);

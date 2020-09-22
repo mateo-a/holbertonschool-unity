@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private float elevation;
     public Canvas pause;
 
-    void Start()
+    void Awake()
     {
         controller = GetComponent<CharacterController>();
         point = GetComponent<Transform>();

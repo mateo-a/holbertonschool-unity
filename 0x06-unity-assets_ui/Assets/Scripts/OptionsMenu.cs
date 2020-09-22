@@ -5,16 +5,21 @@ using UnityEngine.UI;
 ///<summary>Pushing buttons of Optins scene.</summary>
 public class OptionsMenu : MonoBehaviour
 {
-    public Toggle why;
+    public Toggle invertYToggle;
     private bool invertY;
 
+    //Awake is called when the script instance is being loaded
     void Awake()
     {
-        if (PlayerPrefs.GetInt("Y", 0) == 0)
-            invertY = false;
-        else
+        if (PlayerPrefs.GetInt("InvertY") == 0)
+        {
             invertY = true;
-        why.isOn = invertY;
+        }
+        else
+        {
+            invertY = false;
+        }
+        invertYToggle.isOn = invertY;
     }
     ///<summary>Load the previous scene without changes.</summary>
     public void Back()
@@ -24,10 +29,11 @@ public class OptionsMenu : MonoBehaviour
     ///<summary>Load the previous scene with changes.</summary>
     public void Apply()
     {
-        if (why.isOn)
-            PlayerPrefs.SetInt("Y", 1);
+        if (invertYToggle.isOn)
+            PlayerPrefs.SetInt("InvertY", 0);
         else
-            PlayerPrefs.SetInt("Y", 0);
+            PlayerPrefs.SetInt("InvertY", 1);
         SceneManager.LoadSceneAsync(PlayerPrefs.GetString("Prev", "MainMenu"), LoadSceneMode.Single);
     }
 }
+
