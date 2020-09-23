@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public Canvas pause;
-    public GameObject cc;
+    public GameObject cameraController;
     private Scene current;
 
     //Update is called once per frame
@@ -21,13 +21,13 @@ public class PauseMenu : MonoBehaviour
     {
         pause.gameObject.SetActive(true);
         Time.timeScale = 0.0f;
-        cc.gameObject.GetComponent<CameraController>().enabled = false;
+        cameraController.gameObject.GetComponent<CameraController>().enabled = false;
     }
     ///<summary>Resume the game where the player left off.</summary>
     public void Resume()
     {
         Time.timeScale = 1.0f;
-        cc.gameObject.GetComponent<CameraController>().enabled = true;
+        cameraController.gameObject.GetComponent<CameraController>().enabled = true;
         pause.gameObject.SetActive(false);
     }
     ///<summary>Reloads the level scene that the player is currently on.</summary>

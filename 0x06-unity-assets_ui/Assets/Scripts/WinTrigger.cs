@@ -13,6 +13,7 @@ public class WinTrigger : MonoBehaviour
             other.gameObject.GetComponent<Timer>().enabled = false;
             TimerText.color = Color.green;
             TimerText.fontSize = 100;
+            other.gameObject.GetComponent<Timer>().Win();
         }
     }
 }

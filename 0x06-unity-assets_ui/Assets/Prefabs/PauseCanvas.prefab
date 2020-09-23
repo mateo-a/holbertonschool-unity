@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pause: {fileID: 913742916988355015}
-  cc: {fileID: 0}
+  cameraController: {fileID: 0}
 --- !u!1 &3039326242771432907
 GameObject:
   m_ObjectHideFlags: 0

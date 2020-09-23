@@ -4,23 +4,23 @@ using UnityEngine.SceneManagement;
 ///<summary>Handles Win Menu UI.</summary>
 public class WinMenu : MonoBehaviour
 {
-    public GameObject cc;
-    private Scene current;
+    public GameObject camController;
+    private Scene currentScene;
 
-    ///<summary>Return to main menu.</summary>
+    ///<summary>Takes the player to the MainMenu Scene..</summary>
     public void MainMenu()
     {
-        cc.gameObject.GetComponent<CameraController>().enabled = true;
+        camController.gameObject.GetComponent<CameraController>().enabled = true;
         SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Single);
     }
-    ///<summary>Next stage.</summary>
+    ///<summary>Loads the next level</summary>
     public void Next()
     {
-        cc.gameObject.GetComponent<CameraController>().enabled = true;
-        current = SceneManager.GetActiveScene();
-        if (current.name != "Level03")
-            SceneManager.LoadSceneAsync(current.buildIndex + 1, LoadSceneMode.Single);
-        else
+        camController.gameObject.GetComponent<CameraController>().enabled = true;
+        currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "Level03")
             SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Single);
+        else
+            SceneManager.LoadSceneAsync(currentScene.buildIndex + 1, LoadSceneMode.Single);
     }
 }
