@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(direction * Time.deltaTime);
         if (point.position.y < -20.0f)
             point.position = new Vector3(0, 10, 0);
-        if (Input.GetKey("escape"))
+        if (Input.GetKeyDown("escape"))
             //Application.Quit();
             pause.GetComponent<PauseMenu>().Pause();
     }
