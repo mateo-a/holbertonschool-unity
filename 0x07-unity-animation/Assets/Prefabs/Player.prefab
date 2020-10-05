@@ -58,6 +58,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -69,6 +70,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -90,16 +92,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8141072104296278774}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808d09398a56ea5418d2e723fe8e0ed9, type: 3}
+  m_Script: {fileID: 11500000, guid: 60b5d71f78393a44f977c67784e0b9d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  speed: 12
-  col: {fileID: 6800762381020526470}
-  groundLayers:
-    serializedVersion: 2
-    m_Bits: 512
-  playerPos: {fileID: 0}
+  charCam: {fileID: 0}
+  speed: 10
+  jump: 15
+  pause: {fileID: 0}
 --- !u!136 &6800762381020526470
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -123,11 +122,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8141072104296278774}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25e68cb2a0150824eb813ac4eca3b692, type: 3}
+  m_Script: {fileID: 11500000, guid: f05a37061866e954b8cfb23afb3c5cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeText: {fileID: 0}
-  timer: 0
+  TimerText: {fileID: 0}
+  winCanvas: {fileID: 0}
+  finalTime: {fileID: 0}
+  camController: {fileID: 0}
 --- !u!1001 &8141072104279602608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -186,7 +187,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 06558bbf64b53b84ea989ebf16d3e8e0, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 0922f9ac92e8fee4aad448b97574a8f8, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06558bbf64b53b84ea989ebf16d3e8e0, type: 3}
 --- !u!4 &8141072104279469758 stripped
