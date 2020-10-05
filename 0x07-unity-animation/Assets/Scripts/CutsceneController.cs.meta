@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 038fc53fb96b0a649a252909144c45d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainCamera: {instanceID: 0}
+  - playerController: {instanceID: 0}
+  - timerCanvas: {instanceID: 0}
+  - cutsceneController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
