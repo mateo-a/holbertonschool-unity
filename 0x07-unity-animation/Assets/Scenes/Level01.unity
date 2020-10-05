@@ -2552,9 +2552,9 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 1ffc3ed37bd42d441a4d8205755a4543, type: 3}
 --- !u!1 &350954524 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6022327479069481014, guid: c1996ab310240bf42b93436a13c8dc48,
+  m_CorrespondingSourceObject: {fileID: 8747475893151279037, guid: c1996ab310240bf42b93436a13c8dc48,
     type: 3}
-  m_PrefabInstance: {fileID: 6022327478749084714}
+  m_PrefabInstance: {fileID: 8747475893350826913}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &357686106 stripped
 GameObject:
@@ -4815,7 +4815,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &708549085
 PrefabInstance:
@@ -15998,102 +15998,107 @@ PrefabInstance:
       objectReference: {fileID: 963194225}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33ca470118c81364c986d2697fd29a0b, type: 3}
---- !u!1001 &6022327478749084714
+--- !u!1001 &8747475893350826913
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.25
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069480969, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151278978, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069481012, guid: c1996ab310240bf42b93436a13c8dc48,
-        type: 3}
-      propertyPath: TimerText
-      value: 
-      objectReference: {fileID: 219740142}
-    - target: {fileID: 6022327479069481012, guid: c1996ab310240bf42b93436a13c8dc48,
-        type: 3}
-      propertyPath: winCanvas
-      value: 
-      objectReference: {fileID: 1258647005}
-    - target: {fileID: 6022327479069481012, guid: c1996ab310240bf42b93436a13c8dc48,
-        type: 3}
-      propertyPath: finalTime
-      value: 
-      objectReference: {fileID: 1558842323}
-    - target: {fileID: 6022327479069481012, guid: c1996ab310240bf42b93436a13c8dc48,
-        type: 3}
-      propertyPath: camController
-      value: 
-      objectReference: {fileID: 963194225}
-    - target: {fileID: 6022327479069481014, guid: c1996ab310240bf42b93436a13c8dc48,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022327479069481015, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151279036, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: charCam
       value: 
       objectReference: {fileID: 963194228}
-    - target: {fileID: 6022327479069481015, guid: c1996ab310240bf42b93436a13c8dc48,
+    - target: {fileID: 8747475893151279036, guid: c1996ab310240bf42b93436a13c8dc48,
         type: 3}
       propertyPath: pause
       value: 
       objectReference: {fileID: 1543545191}
+    - target: {fileID: 8747475893151279037, guid: c1996ab310240bf42b93436a13c8dc48,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747475893151279039, guid: c1996ab310240bf42b93436a13c8dc48,
+        type: 3}
+      propertyPath: TimerText
+      value: 
+      objectReference: {fileID: 219740142}
+    - target: {fileID: 8747475893151279039, guid: c1996ab310240bf42b93436a13c8dc48,
+        type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 1258647005}
+    - target: {fileID: 8747475893151279039, guid: c1996ab310240bf42b93436a13c8dc48,
+        type: 3}
+      propertyPath: finalTime
+      value: 
+      objectReference: {fileID: 1558842323}
+    - target: {fileID: 8747475893151279039, guid: c1996ab310240bf42b93436a13c8dc48,
+        type: 3}
+      propertyPath: camController
+      value: 
+      objectReference: {fileID: 963194225}
+    - target: {fileID: 9146810326265060248, guid: c1996ab310240bf42b93436a13c8dc48,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.88
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1996ab310240bf42b93436a13c8dc48, type: 3}
