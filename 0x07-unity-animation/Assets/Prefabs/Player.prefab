@@ -2612,6 +2612,7 @@ GameObject:
   - component: {fileID: 2908137302243150951}
   - component: {fileID: 2908137302243150953}
   - component: {fileID: 2908137302243150952}
+  - component: {fileID: 4404257828833040510}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2761,6 +2762,25 @@ MonoBehaviour:
   winCanvas: {fileID: 0}
   finalTime: {fileID: 0}
   camController: {fileID: 0}
+--- !u!95 &4404257828833040510
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908137302243150954}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: cf87320308613b544b8c3625df2e3d92, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2908137302297823870
 GameObject:
   m_ObjectHideFlags: 0

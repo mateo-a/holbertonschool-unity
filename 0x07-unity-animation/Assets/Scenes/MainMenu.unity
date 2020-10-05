@@ -1161,6 +1161,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5855130822903780279, guid: 93532a3dbf88eca489c128d37b11ca03,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855130822903780279, guid: 93532a3dbf88eca489c128d37b11ca03,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855130822903780279, guid: 93532a3dbf88eca489c128d37b11ca03,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6193601443419689663, guid: 93532a3dbf88eca489c128d37b11ca03,
         type: 3}
       propertyPath: m_LocalPosition.x

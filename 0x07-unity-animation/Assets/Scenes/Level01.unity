@@ -5791,6 +5791,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c9dffbb3f856e8046a3d4172c792bc75, type: 3}
+--- !u!223 &833292590 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 913742916988355015, guid: f8be9c16d0266a54698761cac7d2c5ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1170308309775530590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &842438366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6721,7 +6727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 963194228}
-  player: {fileID: 0}
+  player: {fileID: 1287002421}
   distance: 4
   height: 1
   damping: 5
@@ -8176,11 +8182,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038fc53fb96b0a649a252909144c45d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneStart:
-  - {fileID: 963194225}
-  - {fileID: 0}
-  - {fileID: 500233861}
-  - {fileID: 1802645519}
+  mainCamera: {fileID: 963194225}
+  player: {fileID: 1287002421}
+  timerCanvas: {fileID: 500233861}
+  cutCamera: {fileID: 1186445266}
 --- !u!95 &1186445268
 Animator:
   serializedVersion: 3
@@ -9072,6 +9077,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: e6e60fbde48eded45af1306d1a2cc222,
     type: 3}
   m_PrefabInstance: {fileID: 1271655467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1287002421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2908137302243150954, guid: 3af19adee0f9e324180961ba0bcb21cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2908137301113705823}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1295065504
 PrefabInstance:
@@ -15953,11 +15964,16 @@ PrefabInstance:
         type: 3}
       propertyPath: pause
       value: 
-      objectReference: {fileID: 1258647005}
+      objectReference: {fileID: 833292590}
     - target: {fileID: 2908137302243150954, guid: 3af19adee0f9e324180961ba0bcb21cd,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404257828833040510, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af19adee0f9e324180961ba0bcb21cd, type: 3}

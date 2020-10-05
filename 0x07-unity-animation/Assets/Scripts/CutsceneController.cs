@@ -1,41 +1,24 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 public class CutsceneController : MonoBehaviour
 {
-    private Animator intro01;
-    public GameObject[] sceneStart;
-    void Start()
+    Animator anim;
+    public GameObject mainCamera;
+    public GameObject player;
+    public GameObject timerCanvas;
+    public GameObject cutCamera;
+    
+    void Awake()
     {
-        intro01 = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void transition()
     {
-        if (intro01.GetCurrentAnimatorStateInfo(0).IsName("Intro01") && intro01.GetCurrentAnimatorStateInfo(0).normalizedTime > 1f)
-        {
-            StartCoroutine(transitions());
-        }
-    }
-
-    IEnumerator transitions()
-    {
-        foreach (GameObject go in sceneStart)
-        {
-            if (go.activeInHierarchy == false)
-            {
-                go.SetActive(true);
-            }
-            if (go.GetComponent<PlayerController>() != null)
-            {
-                go.GetComponent<PlayerController>().enabled = true;
-            }
-            else
-            {
-                continue;
-            }
-        }
-        gameObject.SetActive(false);
-        yield return new WaitForSeconds(1f);
+        mainCamera.SetActive(true);
+        cutCamera.SetActive(false);
+        timerCanvas.SetActive(true);
+        player.gameObject.GetComponent<PlayerController>().enabled = true;
+        
     }
 }
