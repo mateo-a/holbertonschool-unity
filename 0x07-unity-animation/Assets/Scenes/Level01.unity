@@ -6726,8 +6726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1ae5d81ed16f54eb0ea52d14820bae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  player: {fileID: 0}
+  cam: {fileID: 963194228}
+  player: {fileID: 1453918669}
   distance: 4
   height: 1
   damping: 5
@@ -8199,7 +8199,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8611f7c259a00f649bc9e2eae2820bc8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -15914,6 +15914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731700513053337708, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: m_UpdateMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8416433659364654586, guid: 3af19adee0f9e324180961ba0bcb21cd,
         type: 3}
