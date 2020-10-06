@@ -1,32 +1,4 @@
-﻿// using UnityEngine;
-// using System.Collections;
-
-// public class PlayerController : MonoBehaviour
-// {
-//     private Rigidbody rb;
-//     public float speed;
-//     public float maxSpeed;
-//     public GameObject reference;
-
-//     void Start()
-//     {
-//         rb = GetComponent<Rigidbody> ();
-//     }
-
-//     void FixedUpdate () {
-//         float moveHorizontal = Input.GetAxis ("Horizontal");
-//         float moveVertical = Input.GetAxis ("Vertical");
-
-//         if (rb.velocity.magnitude > maxSpeed){
-//             rb.velocity = rb.velocity.normalized * maxSpeed;
-//         }
-//         rb.AddForce(moveVertical * reference.transform.forward * speed);
-//         rb.AddForce(moveHorizontal * reference.transform.right * speed);
-//     }
-// }
-
-
-using UnityEngine;
+﻿using UnityEngine;
 
 ///<summary>Player Controller</summary>
 public class PlayerController : MonoBehaviour

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class CutsceneController : MonoBehaviour
 {
@@ -16,9 +18,8 @@ public class CutsceneController : MonoBehaviour
     public void transition()
     {
         mainCamera.SetActive(true);
-        cutCamera.SetActive(false);
         timerCanvas.SetActive(true);
         player.gameObject.GetComponent<PlayerController>().enabled = true;
-        
+        cutCamera.SetActive(false);
     }
 }
