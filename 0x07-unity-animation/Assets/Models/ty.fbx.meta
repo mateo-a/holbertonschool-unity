@@ -1,509 +1,175 @@
 fileFormatVersion: 2
 guid: cf87320308613b544b8c3625df2e3d92
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Boy01_Hair_Geo
-  - first:
-      1: 100002
-    second: Boy01_Hands_Geo
-  - first:
-      1: 100004
-    second: Boy01_Head_Geo
-  - first:
-      1: 100006
-    second: Boy01_LowerBody_Geo
-  - first:
-      1: 100008
-    second: Boy01_Scarf_Geo
-  - first:
-      1: 100010
-    second: Boy01_Shoes_Geo
-  - first:
-      1: 100012
-    second: Boy01_UpperBody_Geo
-  - first:
-      1: 100014
-    second: Boy:Head
-  - first:
-      1: 100016
-    second: Boy:HeadTop_End
-  - first:
-      1: 100018
-    second: Boy:Hips
-  - first:
-      1: 100020
-    second: Boy:LeftArm
-  - first:
-      1: 100022
-    second: Boy:LeftFoot
-  - first:
-      1: 100024
-    second: Boy:LeftForeArm
-  - first:
-      1: 100026
-    second: Boy:LeftHand
-  - first:
-      1: 100028
-    second: Boy:LeftHandIndex1
-  - first:
-      1: 100030
-    second: Boy:LeftHandIndex2
-  - first:
-      1: 100032
-    second: Boy:LeftHandIndex3
-  - first:
-      1: 100034
-    second: Boy:LeftHandIndex4
-  - first:
-      1: 100036
-    second: Boy:LeftHandMiddle1
-  - first:
-      1: 100038
-    second: Boy:LeftHandMiddle2
-  - first:
-      1: 100040
-    second: Boy:LeftHandMiddle3
-  - first:
-      1: 100042
-    second: Boy:LeftHandMiddle4
-  - first:
-      1: 100044
-    second: Boy:LeftHandPinky1
-  - first:
-      1: 100046
-    second: Boy:LeftHandPinky2
-  - first:
-      1: 100048
-    second: Boy:LeftHandPinky3
-  - first:
-      1: 100050
-    second: Boy:LeftHandPinky4
-  - first:
-      1: 100052
-    second: Boy:LeftHandRing1
-  - first:
-      1: 100054
-    second: Boy:LeftHandRing2
-  - first:
-      1: 100056
-    second: Boy:LeftHandRing3
-  - first:
-      1: 100058
-    second: Boy:LeftHandRing4
-  - first:
-      1: 100060
-    second: Boy:LeftHandThumb1
-  - first:
-      1: 100062
-    second: Boy:LeftHandThumb2
-  - first:
-      1: 100064
-    second: Boy:LeftHandThumb3
-  - first:
-      1: 100066
-    second: Boy:LeftHandThumb4
-  - first:
-      1: 100068
-    second: Boy:LeftLeg
-  - first:
-      1: 100070
-    second: Boy:LeftShoulder
-  - first:
-      1: 100072
-    second: Boy:LeftToeBase
-  - first:
-      1: 100074
-    second: Boy:LeftUpLeg
-  - first:
-      1: 100076
-    second: Boy:Neck
-  - first:
-      1: 100078
-    second: Boy:RightArm
-  - first:
-      1: 100080
-    second: Boy:RightFoot
-  - first:
-      1: 100082
-    second: Boy:RightForeArm
-  - first:
-      1: 100084
-    second: Boy:RightHand
-  - first:
-      1: 100086
-    second: Boy:RightHandIndex1
-  - first:
-      1: 100088
-    second: Boy:RightHandIndex2
-  - first:
-      1: 100090
-    second: Boy:RightHandIndex3
-  - first:
-      1: 100092
-    second: Boy:RightHandIndex4
-  - first:
-      1: 100094
-    second: Boy:RightHandMiddle1
-  - first:
-      1: 100096
-    second: Boy:RightHandMiddle2
-  - first:
-      1: 100098
-    second: Boy:RightHandMiddle3
-  - first:
-      1: 100100
-    second: Boy:RightHandMiddle4
-  - first:
-      1: 100102
-    second: Boy:RightHandPinky1
-  - first:
-      1: 100104
-    second: Boy:RightHandPinky2
-  - first:
-      1: 100106
-    second: Boy:RightHandPinky3
-  - first:
-      1: 100108
-    second: Boy:RightHandPinky4
-  - first:
-      1: 100110
-    second: Boy:RightHandRing1
-  - first:
-      1: 100112
-    second: Boy:RightHandRing2
-  - first:
-      1: 100114
-    second: Boy:RightHandRing3
-  - first:
-      1: 100116
-    second: Boy:RightHandRing4
-  - first:
-      1: 100118
-    second: Boy:RightHandThumb1
-  - first:
-      1: 100120
-    second: Boy:RightHandThumb2
-  - first:
-      1: 100122
-    second: Boy:RightHandThumb3
-  - first:
-      1: 100124
-    second: Boy:RightHandThumb4
-  - first:
-      1: 100126
-    second: Boy:RightLeg
-  - first:
-      1: 100128
-    second: Boy:RightShoulder
-  - first:
-      1: 100130
-    second: Boy:RightToeBase
-  - first:
-      1: 100132
-    second: Boy:RightUpLeg
-  - first:
-      1: 100134
-    second: Boy:Spine
-  - first:
-      1: 100136
-    second: Boy:Spine1
-  - first:
-      1: 100138
-    second: Boy:Spine2
-  - first:
-      1: 100140
-    second: Boy_01_Meshes
-  - first:
-      1: 100142
-    second: //RootNode
-  - first:
-      4: 400000
-    second: Boy01_Hair_Geo
-  - first:
-      4: 400002
-    second: Boy01_Hands_Geo
-  - first:
-      4: 400004
-    second: Boy01_Head_Geo
-  - first:
-      4: 400006
-    second: Boy01_LowerBody_Geo
-  - first:
-      4: 400008
-    second: Boy01_Scarf_Geo
-  - first:
-      4: 400010
-    second: Boy01_Shoes_Geo
-  - first:
-      4: 400012
-    second: Boy01_UpperBody_Geo
-  - first:
-      4: 400014
-    second: Boy:Head
-  - first:
-      4: 400016
-    second: Boy:HeadTop_End
-  - first:
-      4: 400018
-    second: Boy:Hips
-  - first:
-      4: 400020
-    second: Boy:LeftArm
-  - first:
-      4: 400022
-    second: Boy:LeftFoot
-  - first:
-      4: 400024
-    second: Boy:LeftForeArm
-  - first:
-      4: 400026
-    second: Boy:LeftHand
-  - first:
-      4: 400028
-    second: Boy:LeftHandIndex1
-  - first:
-      4: 400030
-    second: Boy:LeftHandIndex2
-  - first:
-      4: 400032
-    second: Boy:LeftHandIndex3
-  - first:
-      4: 400034
-    second: Boy:LeftHandIndex4
-  - first:
-      4: 400036
-    second: Boy:LeftHandMiddle1
-  - first:
-      4: 400038
-    second: Boy:LeftHandMiddle2
-  - first:
-      4: 400040
-    second: Boy:LeftHandMiddle3
-  - first:
-      4: 400042
-    second: Boy:LeftHandMiddle4
-  - first:
-      4: 400044
-    second: Boy:LeftHandPinky1
-  - first:
-      4: 400046
-    second: Boy:LeftHandPinky2
-  - first:
-      4: 400048
-    second: Boy:LeftHandPinky3
-  - first:
-      4: 400050
-    second: Boy:LeftHandPinky4
-  - first:
-      4: 400052
-    second: Boy:LeftHandRing1
-  - first:
-      4: 400054
-    second: Boy:LeftHandRing2
-  - first:
-      4: 400056
-    second: Boy:LeftHandRing3
-  - first:
-      4: 400058
-    second: Boy:LeftHandRing4
-  - first:
-      4: 400060
-    second: Boy:LeftHandThumb1
-  - first:
-      4: 400062
-    second: Boy:LeftHandThumb2
-  - first:
-      4: 400064
-    second: Boy:LeftHandThumb3
-  - first:
-      4: 400066
-    second: Boy:LeftHandThumb4
-  - first:
-      4: 400068
-    second: Boy:LeftLeg
-  - first:
-      4: 400070
-    second: Boy:LeftShoulder
-  - first:
-      4: 400072
-    second: Boy:LeftToeBase
-  - first:
-      4: 400074
-    second: Boy:LeftUpLeg
-  - first:
-      4: 400076
-    second: Boy:Neck
-  - first:
-      4: 400078
-    second: Boy:RightArm
-  - first:
-      4: 400080
-    second: Boy:RightFoot
-  - first:
-      4: 400082
-    second: Boy:RightForeArm
-  - first:
-      4: 400084
-    second: Boy:RightHand
-  - first:
-      4: 400086
-    second: Boy:RightHandIndex1
-  - first:
-      4: 400088
-    second: Boy:RightHandIndex2
-  - first:
-      4: 400090
-    second: Boy:RightHandIndex3
-  - first:
-      4: 400092
-    second: Boy:RightHandIndex4
-  - first:
-      4: 400094
-    second: Boy:RightHandMiddle1
-  - first:
-      4: 400096
-    second: Boy:RightHandMiddle2
-  - first:
-      4: 400098
-    second: Boy:RightHandMiddle3
-  - first:
-      4: 400100
-    second: Boy:RightHandMiddle4
-  - first:
-      4: 400102
-    second: Boy:RightHandPinky1
-  - first:
-      4: 400104
-    second: Boy:RightHandPinky2
-  - first:
-      4: 400106
-    second: Boy:RightHandPinky3
-  - first:
-      4: 400108
-    second: Boy:RightHandPinky4
-  - first:
-      4: 400110
-    second: Boy:RightHandRing1
-  - first:
-      4: 400112
-    second: Boy:RightHandRing2
-  - first:
-      4: 400114
-    second: Boy:RightHandRing3
-  - first:
-      4: 400116
-    second: Boy:RightHandRing4
-  - first:
-      4: 400118
-    second: Boy:RightHandThumb1
-  - first:
-      4: 400120
-    second: Boy:RightHandThumb2
-  - first:
-      4: 400122
-    second: Boy:RightHandThumb3
-  - first:
-      4: 400124
-    second: Boy:RightHandThumb4
-  - first:
-      4: 400126
-    second: Boy:RightLeg
-  - first:
-      4: 400128
-    second: Boy:RightShoulder
-  - first:
-      4: 400130
-    second: Boy:RightToeBase
-  - first:
-      4: 400132
-    second: Boy:RightUpLeg
-  - first:
-      4: 400134
-    second: Boy:Spine
-  - first:
-      4: 400136
-    second: Boy:Spine1
-  - first:
-      4: 400138
-    second: Boy:Spine2
-  - first:
-      4: 400140
-    second: Boy_01_Meshes
-  - first:
-      4: 400142
-    second: //RootNode
-  - first:
-      21: 2100000
-    second: Boy01_Head_MAT
-  - first:
-      21: 2100002
-    second: Boy01_Hands_MAT
-  - first:
-      21: 2100004
-    second: Boy01_UpperBody_MAT
-  - first:
-      21: 2100006
-    second: Boy01_LowerBody_MAT
-  - first:
-      21: 2100008
-    second: Boy01_Shoes_MAT
-  - first:
-      21: 2100010
-    second: Boy01_Scarf_MAT
-  - first:
-      21: 2100012
-    second: Boy01_Hair_MAT
-  - first:
-      43: 4300000
-    second: Boy01_Head_Geo
-  - first:
-      43: 4300002
-    second: Boy01_Hands_Geo
-  - first:
-      43: 4300004
-    second: Boy01_UpperBody_Geo
-  - first:
-      43: 4300006
-    second: Boy01_LowerBody_Geo
-  - first:
-      43: 4300008
-    second: Boy01_Shoes_Geo
-  - first:
-      43: 4300010
-    second: Boy01_Scarf_Geo
-  - first:
-      43: 4300012
-    second: Boy01_Hair_Geo
-  - first:
-      74: 7400000
-    second: mixamo.com
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: Boy01_Hair_Geo
-  - first:
-      137: 13700002
-    second: Boy01_Hands_Geo
-  - first:
-      137: 13700004
-    second: Boy01_Head_Geo
-  - first:
-      137: 13700006
-    second: Boy01_LowerBody_Geo
-  - first:
-      137: 13700008
-    second: Boy01_Scarf_Geo
-  - first:
-      137: 13700010
-    second: Boy01_Shoes_Geo
-  - first:
-      137: 13700012
-    second: Boy01_UpperBody_Geo
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Boy01_Hair_Geo
+    100002: Boy01_Hands_Geo
+    100004: Boy01_Head_Geo
+    100006: Boy01_LowerBody_Geo
+    100008: Boy01_Scarf_Geo
+    100010: Boy01_Shoes_Geo
+    100012: Boy01_UpperBody_Geo
+    100014: Boy:Head
+    100016: Boy:HeadTop_End
+    100018: Boy:Hips
+    100020: Boy:LeftArm
+    100022: Boy:LeftFoot
+    100024: Boy:LeftForeArm
+    100026: Boy:LeftHand
+    100028: Boy:LeftHandIndex1
+    100030: Boy:LeftHandIndex2
+    100032: Boy:LeftHandIndex3
+    100034: Boy:LeftHandIndex4
+    100036: Boy:LeftHandMiddle1
+    100038: Boy:LeftHandMiddle2
+    100040: Boy:LeftHandMiddle3
+    100042: Boy:LeftHandMiddle4
+    100044: Boy:LeftHandPinky1
+    100046: Boy:LeftHandPinky2
+    100048: Boy:LeftHandPinky3
+    100050: Boy:LeftHandPinky4
+    100052: Boy:LeftHandRing1
+    100054: Boy:LeftHandRing2
+    100056: Boy:LeftHandRing3
+    100058: Boy:LeftHandRing4
+    100060: Boy:LeftHandThumb1
+    100062: Boy:LeftHandThumb2
+    100064: Boy:LeftHandThumb3
+    100066: Boy:LeftHandThumb4
+    100068: Boy:LeftLeg
+    100070: Boy:LeftShoulder
+    100072: Boy:LeftToeBase
+    100074: Boy:LeftUpLeg
+    100076: Boy:Neck
+    100078: Boy:RightArm
+    100080: Boy:RightFoot
+    100082: Boy:RightForeArm
+    100084: Boy:RightHand
+    100086: Boy:RightHandIndex1
+    100088: Boy:RightHandIndex2
+    100090: Boy:RightHandIndex3
+    100092: Boy:RightHandIndex4
+    100094: Boy:RightHandMiddle1
+    100096: Boy:RightHandMiddle2
+    100098: Boy:RightHandMiddle3
+    100100: Boy:RightHandMiddle4
+    100102: Boy:RightHandPinky1
+    100104: Boy:RightHandPinky2
+    100106: Boy:RightHandPinky3
+    100108: Boy:RightHandPinky4
+    100110: Boy:RightHandRing1
+    100112: Boy:RightHandRing2
+    100114: Boy:RightHandRing3
+    100116: Boy:RightHandRing4
+    100118: Boy:RightHandThumb1
+    100120: Boy:RightHandThumb2
+    100122: Boy:RightHandThumb3
+    100124: Boy:RightHandThumb4
+    100126: Boy:RightLeg
+    100128: Boy:RightShoulder
+    100130: Boy:RightToeBase
+    100132: Boy:RightUpLeg
+    100134: Boy:Spine
+    100136: Boy:Spine1
+    100138: Boy:Spine2
+    100140: Boy_01_Meshes
+    100142: //RootNode
+    400000: Boy01_Hair_Geo
+    400002: Boy01_Hands_Geo
+    400004: Boy01_Head_Geo
+    400006: Boy01_LowerBody_Geo
+    400008: Boy01_Scarf_Geo
+    400010: Boy01_Shoes_Geo
+    400012: Boy01_UpperBody_Geo
+    400014: Boy:Head
+    400016: Boy:HeadTop_End
+    400018: Boy:Hips
+    400020: Boy:LeftArm
+    400022: Boy:LeftFoot
+    400024: Boy:LeftForeArm
+    400026: Boy:LeftHand
+    400028: Boy:LeftHandIndex1
+    400030: Boy:LeftHandIndex2
+    400032: Boy:LeftHandIndex3
+    400034: Boy:LeftHandIndex4
+    400036: Boy:LeftHandMiddle1
+    400038: Boy:LeftHandMiddle2
+    400040: Boy:LeftHandMiddle3
+    400042: Boy:LeftHandMiddle4
+    400044: Boy:LeftHandPinky1
+    400046: Boy:LeftHandPinky2
+    400048: Boy:LeftHandPinky3
+    400050: Boy:LeftHandPinky4
+    400052: Boy:LeftHandRing1
+    400054: Boy:LeftHandRing2
+    400056: Boy:LeftHandRing3
+    400058: Boy:LeftHandRing4
+    400060: Boy:LeftHandThumb1
+    400062: Boy:LeftHandThumb2
+    400064: Boy:LeftHandThumb3
+    400066: Boy:LeftHandThumb4
+    400068: Boy:LeftLeg
+    400070: Boy:LeftShoulder
+    400072: Boy:LeftToeBase
+    400074: Boy:LeftUpLeg
+    400076: Boy:Neck
+    400078: Boy:RightArm
+    400080: Boy:RightFoot
+    400082: Boy:RightForeArm
+    400084: Boy:RightHand
+    400086: Boy:RightHandIndex1
+    400088: Boy:RightHandIndex2
+    400090: Boy:RightHandIndex3
+    400092: Boy:RightHandIndex4
+    400094: Boy:RightHandMiddle1
+    400096: Boy:RightHandMiddle2
+    400098: Boy:RightHandMiddle3
+    400100: Boy:RightHandMiddle4
+    400102: Boy:RightHandPinky1
+    400104: Boy:RightHandPinky2
+    400106: Boy:RightHandPinky3
+    400108: Boy:RightHandPinky4
+    400110: Boy:RightHandRing1
+    400112: Boy:RightHandRing2
+    400114: Boy:RightHandRing3
+    400116: Boy:RightHandRing4
+    400118: Boy:RightHandThumb1
+    400120: Boy:RightHandThumb2
+    400122: Boy:RightHandThumb3
+    400124: Boy:RightHandThumb4
+    400126: Boy:RightLeg
+    400128: Boy:RightShoulder
+    400130: Boy:RightToeBase
+    400132: Boy:RightUpLeg
+    400134: Boy:Spine
+    400136: Boy:Spine1
+    400138: Boy:Spine2
+    400140: Boy_01_Meshes
+    400142: //RootNode
+    2100000: Boy01_Head_MAT
+    2100002: Boy01_Hands_MAT
+    2100004: Boy01_UpperBody_MAT
+    2100006: Boy01_LowerBody_MAT
+    2100008: Boy01_Shoes_MAT
+    2100010: Boy01_Scarf_MAT
+    2100012: Boy01_Hair_MAT
+    4300000: Boy01_Head_Geo
+    4300002: Boy01_Hands_Geo
+    4300004: Boy01_UpperBody_Geo
+    4300006: Boy01_LowerBody_Geo
+    4300008: Boy01_Shoes_Geo
+    4300010: Boy01_Scarf_Geo
+    4300012: Boy01_Hair_Geo
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Boy01_Hair_Geo
+    13700002: Boy01_Hands_Geo
+    13700004: Boy01_Head_Geo
+    13700006: Boy01_LowerBody_Geo
+    13700008: Boy01_Scarf_Geo
+    13700010: Boy01_Shoes_Geo
+    13700012: Boy01_UpperBody_Geo
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -576,7 +242,7 @@ ModelImporter:
       name: Boy_UpperBody_diffuse
     second: {fileID: 2800000, guid: dcc94f6bc42187e4791fde4517ac4bd0, type: 3}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -609,28 +275,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -639,419 +302,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
-    human:
-    - boneName: Boy:Hips
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftUpLeg
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightUpLeg
-      humanName: RightUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftLeg
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightLeg
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftFoot
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightFoot
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:Spine
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:Spine2
-      humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:Neck
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:Head
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftShoulder
-      humanName: LeftShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightShoulder
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftArm
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightArm
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftForeArm
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightForeArm
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHand
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHand
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftToeBase
-      humanName: LeftToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightToeBase
-      humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandThumb1
-      humanName: Left Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandThumb2
-      humanName: Left Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandThumb3
-      humanName: Left Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandIndex1
-      humanName: Left Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandIndex2
-      humanName: Left Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandIndex3
-      humanName: Left Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandMiddle1
-      humanName: Left Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandMiddle2
-      humanName: Left Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandMiddle3
-      humanName: Left Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandRing1
-      humanName: Left Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandRing2
-      humanName: Left Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandRing3
-      humanName: Left Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandPinky1
-      humanName: Left Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandPinky2
-      humanName: Left Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:LeftHandPinky3
-      humanName: Left Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandThumb1
-      humanName: Right Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandThumb2
-      humanName: Right Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandThumb3
-      humanName: Right Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandIndex1
-      humanName: Right Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandIndex2
-      humanName: Right Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandIndex3
-      humanName: Right Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandMiddle1
-      humanName: Right Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandMiddle2
-      humanName: Right Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandMiddle3
-      humanName: Right Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandRing1
-      humanName: Right Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandRing2
-      humanName: Right Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandRing3
-      humanName: Right Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandPinky1
-      humanName: Right Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandPinky2
-      humanName: Right Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Boy:RightHandPinky3
-      humanName: Right Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    serializedVersion: 2
+    human: []
     skeleton:
     - name: ty(Clone)
       parentName: 
@@ -1276,7 +531,7 @@ ModelImporter:
     - name: Boy:RightHandThumb1
       parentName: Boy:RightHand
       position: {x: 0.044017605, y: -0.015914345, z: 0.033655696}
-      rotation: {x: -0.119967856, y: -0.050421216, z: 0.14035131, w: 0.9815126}
+      rotation: {x: -0.119967856, y: -0.0504212, z: 0.14035131, w: 0.9815126}
       scale: {x: 1, y: 1, z: 1}
     - name: Boy:RightHandThumb2
       parentName: Boy:RightHandThumb1
@@ -1420,16 +675,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 1
+    hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
