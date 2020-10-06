@@ -6727,7 +6727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 963194228}
-  player: {fileID: 1287002421}
+  player: {fileID: 0}
   distance: 4
   height: 1
   damping: 5
@@ -8183,7 +8183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 963194225}
-  player: {fileID: 1287002421}
+  player: {fileID: 0}
   timerCanvas: {fileID: 500233861}
   cutCamera: {fileID: 1186445266}
 --- !u!95 &1186445268
@@ -9077,12 +9077,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: e6e60fbde48eded45af1306d1a2cc222,
     type: 3}
   m_PrefabInstance: {fileID: 1271655467}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1287002421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2908137302243150954, guid: 3af19adee0f9e324180961ba0bcb21cd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2908137301113705823}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1295065504
 PrefabInstance:
@@ -15969,6 +15963,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140927205511896000, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140927205511896000, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: TimerText
+      value: 
+      objectReference: {fileID: 219740142}
+    - target: {fileID: 6140927205511896000, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 1258647005}
+    - target: {fileID: 6140927205511896000, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: finalTime
+      value: 
+      objectReference: {fileID: 1558842323}
+    - target: {fileID: 6140927205511896000, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: camController
+      value: 
+      objectReference: {fileID: 963194225}
+    - target: {fileID: 6140927205511896010, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140927205511896010, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: charCam
+      value: 
+      objectReference: {fileID: 963194228}
+    - target: {fileID: 6140927205511896010, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 833292590}
+    - target: {fileID: 8416433659364654586, guid: 3af19adee0f9e324180961ba0bcb21cd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af19adee0f9e324180961ba0bcb21cd, type: 3}

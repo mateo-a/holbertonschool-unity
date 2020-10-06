@@ -60,6 +60,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,6 +72,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -138,15 +140,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6669409542336031268}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaa1e3cb62e439244b34ed1232a8c162, type: 3}
+  m_Script: {fileID: 11500000, guid: f05a37061866e954b8cfb23afb3c5cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  speed: 11
-  jump: 13
-  pause: {fileID: 0}
+  TimerText: {fileID: 0}
+  winCanvas: {fileID: 0}
+  finalTime: {fileID: 0}
+  camController: {fileID: 0}
 --- !u!114 &6140927205511896010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,15 +156,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6669409542336031268}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0738379353b6bf4692c27aad8bbd4c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 60b5d71f78393a44f977c67784e0b9d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 0}
-  winCanvas: {fileID: 0}
-  winTime: {fileID: 0}
-  cc: {fileID: 0}
+  charCam: {fileID: 0}
+  speed: 10
+  jump: 15
+  pause: {fileID: 0}
 --- !u!1001 &6731700513043848460
 PrefabInstance:
   m_ObjectHideFlags: 0
